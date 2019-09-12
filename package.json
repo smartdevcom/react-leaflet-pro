@@ -1,7 +1,7 @@
 {
-   "name": "stash3",
+   "name": "simba-app",
    "version": "0.1.0",
-   "private": true,
+   "private": false,
    "dependencies": {
       "@material/react-button": "0.15.0",
       "@material/react-checkbox": "0.15.0",
