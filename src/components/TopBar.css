@@ -1,0 +1,11 @@
+.TopBar {
+  height: 48px;
+}
+
+.TopBar .mdc-top-app-bar {
+  position: relative;
+}
+
+.TopBar .mdc-top-app-bar__section {
+  padding-right: 10px;
+}

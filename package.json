@@ -1,0 +1,55 @@
+{
+   "name": "stash3",
+   "version": "0.1.0",
+   "private": true,
+   "dependencies": {
+      "@material/react-button": "0.15.0",
+      "@material/react-checkbox": "0.15.0",
+      "@material/react-dialog": "0.15.0",
+      "@material/react-drawer": "0.15.0",
+      "@material/react-fab": "0.15.0",
+      "@material/react-icon-button": "0.15.0",
+      "@material/react-list": "0.15.0",
+      "@material/react-material-icon": "0.15.0",
+      "@material/react-radio": "^0.15.0",
+      "@material/react-select": "0.15.0",
+      "@material/react-snackbar": "0.15.0",
+      "@material/react-tab": "^0.15.0",
+      "@material/react-tab-bar": "^0.15.0",
+      "@material/react-text-field": "0.15.0",
+      "@material/react-top-app-bar": "0.15.0",
+      "@material/react-typography": "0.15.0",
+      "query-string": "^6.2.0",
+      "re-resizable": "^6.0.0",
+      "react": "^16.9.0",
+      "react-autocomplete": "^1.8.1",
+      "react-dom": "^16.9.0",
+      "react-redux": "^7.1.0",
+      "react-router-dom": "5.0.1",
+      "react-scripts": "3.1.1",
+      "redux": "4.0.4",
+      "redux-localstorage": "0.4.1",
+      "redux-thunk": "2.3.0"
+   },
+   "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+   },
+   "eslintConfig": {
+      "extends": "react-app"
+   },
+   "browserslist": {
+      "production": [
+         ">0.2%",
+         "not dead",
+         "not op_mini all"
+      ],
+      "development": [
+         "last 1 chrome version",
+         "last 1 firefox version",
+         "last 1 safari version"
+      ]
+   }
+}

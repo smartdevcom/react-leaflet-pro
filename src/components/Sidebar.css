@@ -1,0 +1,8 @@
+.Sidebar {
+   width: 100%;
+}
+
+.Sidebar__tab--label {
+   text-transform: capitalize;
+   font-weight: normal;
+}

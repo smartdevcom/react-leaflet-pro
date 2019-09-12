@@ -1,0 +1,42 @@
+.MainLayout__left-column {
+   display: flex;
+   /* align-items: center;
+   justify-content: center; */
+   border: solid 1px #ddd;
+   background: #f0f0f0;
+   float: left;
+}
+
+.MainLayout__right-column {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   background: #fff;
+   flex: 1;
+}
+
+.MainLayout__body {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.MainLayout__topBar {
+   width: 100%;
+}
+
+.MainLayout__map {
+   width: 100%;
+   height: 100%;
+}
+
+.MainLayout__overlay {
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 300px;
+   height: 300px;
+   background: #4e369b;
+   z-index: 1000;
+   opacity: 0.8;
+}

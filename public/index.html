@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+      <link href="/css/theme.min.css" rel="stylesheet" media="screen" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/handsontable@7.1.0/dist/handsontable.full.min.css"
+         rel="stylesheet"
+         media="screen"
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="theme-color" content="#000000" />
+      <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+      <!--Stripe JS include-->
+      <!-- <script src="https://js.stripe.com/v3/"></script> -->
+
+      <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+      <title>Stash Property App</title>
+   </head>
+
+   <body className="mdc-typography mdc-theme--background">
+      <noscript>
+         You need to enable JavaScript to run this app.
+      </noscript>
+      <div id="root"></div>
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+         crossorigin=""
+      />
+      <script
+         src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+         integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+         crossorigin=""
+      ></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=%REACT_APP_GOOGLE_MAPS_KEY%" async defer></script>
+      <script src="https://unpkg.com/leaflet.gridlayer.googlemutant@latest/Leaflet.GoogleMutant.js"></script>
+      <!-- Hotjar Tracking Code for https://app.stashproperty.com.au/ -->
+      <script>
+         (function(h, o, t, j, a, r) {
+            h.hj =
+               h.hj ||
+               function() {
+                  (h.hj.q = h.hj.q || []).push(arguments);
+               };
+            h._hjSettings = { hjid: 1326907, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+      </script>
+   </body>
+</html>
