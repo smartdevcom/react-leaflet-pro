@@ -1,7 +1,7 @@
 {
-   "name": "simba-app",
+   "name": "stash3",
    "version": "0.1.0",
-   "private": false,
+   "private": true,
    "dependencies": {
       "@material/react-button": "0.15.0",
       "@material/react-checkbox": "0.15.0",
@@ -19,6 +19,7 @@
       "@material/react-text-field": "0.15.0",
       "@material/react-top-app-bar": "0.15.0",
       "@material/react-typography": "0.15.0",
+      "flexboxgrid": "^6.3.1",
       "query-string": "^6.2.0",
       "re-resizable": "^6.0.0",
       "react": "^16.9.0",
